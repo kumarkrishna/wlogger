@@ -7,13 +7,12 @@ import os
 import sys
 import time
 import pickle
-import shutil
 
 home = os.path.expanduser("~")
 
 
 def engine() :
-	""" Sets the message update """
+	""" Sets the directory """
 
 	if not os.path.exists(home + '/.wloggerconfig') :
 		newuser()

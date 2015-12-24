@@ -23,6 +23,7 @@ def main() :
     argparser.add_argument("-r","--remove", help=" Strike off from list ", metavar="remove", action="store", nargs="*")
     argparser.add_argument("-p","--progress", help="Add to progress", metavar="PROGRESS", action="store", nargs="*")
     argparser.add_argument("-s", "--section", metavar="section", default=None, action="store", nargs="*")
+    
     argparser.add_argument("--config", action="store_true", default=False)
     argparser.add_argument("--md", action="store_true", default=False)
     argparser.add_argument("-e", action="store_true", default=False)
@@ -35,7 +36,6 @@ def main() :
 
 
 def process(args) :
-    """ Process the arguments. Add NLP layer later """
 
     if args.e : 
         detailed_usage()
@@ -184,7 +184,7 @@ def display_logs() :
     print(''.join(log))
 
 def detailed_usage() :
-    print("Detailed")
+    print("ToDo")
 
 if __name__ == "__main__":
     main()

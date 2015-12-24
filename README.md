@@ -33,7 +33,6 @@ _Use of `--section` is optional, adding tasks *General* tab._
 $ wlogger --md
 ```
 
-_Add `-v` flag at the end to see the verbose output._
 
 ToDo List :
 
@@ -46,4 +45,3 @@ ToDo List :
  - [ ] `wlogger` supports tab-completion.
  - [ ] `wlogger` integrated with Github.
 
-__Contribution__ : Please feel free to report bugs. Happy coding!

@@ -8,7 +8,7 @@ __version__ = major + '.' + minor
 
 __date__ = '2015-12-22' 
 
-__description__ = 'Minimalist command line to-do list manager.'
+__description__ = 'Minimalistic command-line progress tracker.'
 
 __author__ = 'Kumar Krishna Agrawal'
 __email__ = 'kumarkrishna.iitkgp@gmail.com'
