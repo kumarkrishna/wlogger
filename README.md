@@ -9,7 +9,7 @@ need as well. Let those *planned* projects finally see the light of day!!
 
 ## Installation
 
-python setup.py install
+pip install wlogger
 
 ## Usage
 

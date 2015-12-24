@@ -3,8 +3,9 @@
 name = 'wlogger'
 major = '0'
 minor = '1'
+maintenance = '1'
 
-__version__ = major + '.' + minor
+__version__ = major + '.' + minor + '.' + maintenance
 
 __date__ = '2015-12-22' 
 

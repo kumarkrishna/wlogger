@@ -27,6 +27,6 @@ if __name__ == "__main__":
             'wlogger = wlogger.log:main'            ]
         },
         license = 'Apache License',
-        install_requires = ['argparse', 'argcomplete', 'pickle',
+        install_requires = ['argparse', 'argcomplete',
                             'markdown'],
     )
